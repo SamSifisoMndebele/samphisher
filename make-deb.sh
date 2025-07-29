@@ -15,7 +15,7 @@ if [[ ${1,,} == "termux" || $(uname -o) == *'Android'* ]];then
         _depend="ncurses-utils, proot, resolv-conf, "
         _bin_dir="data/data/com.termux/files/"
         _opt_dir="data/data/com.termux/files/usr/"
-        #PKG_NAME=${_PACKAGE}_${_VERSION}_${_ARCH}_termux.deb
+        PKG_NAME=${_PACKAGE}_${_VERSION}_${_ARCH}_termux.deb
 fi
 
 _depend+="curl, php, unzip"
