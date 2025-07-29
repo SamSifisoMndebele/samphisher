@@ -108,10 +108,11 @@ $ samphisher
     ```
     docker pull samsifisomndebele/samphisher
     ```
-  - **GHCR** : 
-    ```
-    docker pull ghcr.io/SamSifisoMndebele/samphisher:latest
-    ```
+
+[//]: # (  - **GHCR** : )
+[//]: # (    ```)
+[//]: # (    docker pull ghcr.io/SamSifisoMndebele/samphisher:latest)
+[//]: # (    ```)
 
 - By using the wrapper script [**run-docker.sh**](https://raw.githubusercontent.com/SamSifisoMndebele/samphisher/master/run-docker.sh)
 
