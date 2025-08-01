@@ -2,7 +2,7 @@
 
 ##   SamPhisher 	: 	Automated Phishing Tool
 ##   Author 	: 	SAM SIFISO MNDEBELE
-##   Version 	: 	1.0.0
+##   Version 	: 	1.1.0
 ##   Github 	: 	https://github.com/SamSifisoMndebele/samphisher
 
 
@@ -79,7 +79,7 @@
 ##      Copyright (C) 2022  HTR-TECH (https://github.com/SamSifisoMndebele)
 ##
 
-__version__="1.0.0"
+__version__="1.1.0"
 
 ## DEFAULT HOST & PORT
 HOST='127.0.0.1'
