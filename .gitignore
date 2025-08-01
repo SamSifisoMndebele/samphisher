@@ -1,2 +1,4 @@
 /samphisher_*_all_termux.deb
 /samphisher_*_all.deb
+/auth/
+/.server/
