@@ -101,31 +101,40 @@ $ samphisher
 
 ##
 
-### Run on Docker
-
-- Docker Image Mirror:
-  - **DockerHub** : 
-    ```
-    docker pull samsifisomndebele/samphisher
-    ```
+[//]: # (### Run on Docker)
+[//]: # ()
+[//]: # (- Docker Image Mirror:)
+[//]: # (  - **DockerHub** : )
+[//]: # (    ```)
+[//]: # (    docker pull samsifisomndebele/samphisher)
+[//]: # (    ```)
 
 [//]: # (  - **GHCR** : )
 [//]: # (    ```)
 [//]: # (    docker pull ghcr.io/SamSifisoMndebele/samphisher:latest)
 [//]: # (    ```)
 
-- By using the wrapper script [**run-docker.sh**](https://raw.githubusercontent.com/SamSifisoMndebele/samphisher/master/run-docker.sh)
+[//]: # (- By using the wrapper script [**run-docker.sh**]&#40;https://raw.githubusercontent.com/SamSifisoMndebele/samphisher/master/run-docker.sh&#41;)
 
-  ```
-  $ curl -LO https://raw.githubusercontent.com/SamSifisoMndebele/samphisher/master/run-docker.sh
-  $ bash run-docker.sh
-  ```
-- Temporary Container
+[//]: # ()
+[//]: # (  ```)
 
-  ```
-  docker run --rm -ti samsifisomndebele/samphisher
-  ```
-  - Remember to mount the `auth` directory.
+[//]: # (  $ curl -LO https://raw.githubusercontent.com/SamSifisoMndebele/samphisher/master/run-docker.sh)
+
+[//]: # (  $ bash run-docker.sh)
+
+[//]: # (  ```)
+
+[//]: # (- Temporary Container)
+
+[//]: # ()
+[//]: # (  ```)
+
+[//]: # (  docker run --rm -ti samsifisomndebele/samphisher)
+
+[//]: # (  ```)
+
+[//]: # (  - Remember to mount the `auth` directory.)
 
 ##
 
