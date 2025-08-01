@@ -52,14 +52,14 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 ### Installation
 
 - Clone this repository
-  ```
+  ```bash
   git clone --depth=1 https://github.com/SamSifisoMndebele/samphisher.git
   ```
 
 - Now go to cloned directory and run `samphisher.sh` -
-  ```
-  $ cd samphisher
-  $ bash samphisher.sh
+  ```bash
+  cd samphisher
+  bash samphisher.sh
   ```
 
 - On first launch, It'll install the dependencies and that's it. ***SamPhisher*** is installed.
@@ -68,10 +68,18 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 
 ### Installation (Termux)
 You can easily install samphisher in Termux by using tur-repo
+Install depenencies
+```bash
+pkg update && pkg upgrade
+pkg install wget dpkg proot
 ```
-$ pkg install tur-repo
-$ pkg install samphisher
-$ samphisher
+- Download `*_termux.deb` files from the [**Latest Release**](https://github.com/SamSifisoMndebele/samphisher/releases/latest)
+- Install the `.deb`
+```bash
+wget https://example.com/file_termux.deb
+dpkg -i file_termux.deb
+apt --fix-broken install
+samphisher
 ```
 ### A Note : 
 ***Termux discourages hacking*** .. So never discuss anything related to *samphisher* in any of the termux discussion groups. For more check : [wiki](https://wiki.termux.com/wiki/Hacking)
@@ -87,16 +95,14 @@ $ samphisher
 ### Installation via ".deb" file
 
 - Download `.deb` files from the [**Latest Release**](https://github.com/SamSifisoMndebele/samphisher/releases/latest)
-- If you are using ***termux*** then download the `*_termux.deb`
-
 - Install the `.deb` file by executing
-  ```
+  ```bash
   apt install <your path to deb file>
   ```
   Or
-  ```
-  $ dpkg -i <your path to deb file>
-  $ apt install -f
+  ```bash
+  dpkg -i <your path to deb file>
+  apt install -f
   ```
 
 ##
